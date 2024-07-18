@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz Master</h1>
+    
+    <!-- Contestant entry form -->
+    <div id="entry-container">
+      <label for="contestant-name">Enter your name:</label>
+      <input type="text" id="contestant-name" placeholder="Your Name">
+      <button id="enter-btn">Enter Game</button>
+    </div>
+    
+    <!-- Quiz content -->
+    <div id="quiz-container" style="display: none;">
+      <div id="question-container">
+        <p id="question-text">Loading question...</p>
+        <ul id="options-list"></ul>
+        <div id="feedback-container">
+          <p id="explanation"></p>
+        </div>
+      </div>
+      <div id="controls">
+        <button id="start-btn">Start Quiz</button>
+        <button id="next-btn" style="display: none;">Next Question</button>
+        <button id="submit-btn" style="display: none;">Submit Quiz</button>
+      </div>
+      <div id="leaderboard-container">
+        <h2>Leaderboard</h2>
+        <ol id="leaderboard-list"></ol>
+      </div>
+      <div id="timer">
+        <p>Time Left: <span id="time">10</span> seconds</p>
+      </div>
+    </div>
 
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

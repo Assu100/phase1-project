@@ -1,0 +1,62 @@
+[
+    {
+      "question": "Who is the CEO of Tesla Motors?",
+      "options": ["Jeff Bezos", "Elon Musk", "Tim Cook", "Mark Zuckerberg"],
+      "correctAnswer": "Elon Musk",
+      "explanation": "Elon Musk is the CEO of Tesla Motors, known for electric vehicles and renewable energy products."
+    },
+    {
+      "question": "Which programming language is known for its use in statistical computing and data analysis?",
+      "options": ["Python", "Java", "C++", "Ruby"],
+      "correctAnswer": "Python",
+      "explanation": "Python is widely used in scientific computing, data analysis, machine learning, and artificial intelligence."
+    },
+    {
+      "question": "What does the abbreviation 'HTTP' stand for?",
+      "options": ["HyperText Transfer Protocol", "High Transfer Text Protocol", "Hyper Transfer Terminal Protocol", "High Text Transfer Protocol"],
+      "correctAnswer": "HyperText Transfer Protocol",
+      "explanation": "HTTP is the protocol used for transmitting hypertext requests and responses over the Internet."
+    },
+    {
+      "question": "Who founded Microsoft Corporation?",
+      "options": ["Steve Jobs", "Bill Gates", "Jeff Bezos", "Larry Page"],
+      "correctAnswer": "Bill Gates",
+      "explanation": "Bill Gates co-founded Microsoft Corporation with Paul Allen in 1975."
+    },
+    {
+      "question": "Which company developed the Java programming language?",
+      "options": ["Sun Microsystems", "Microsoft", "Apple Inc.", "IBM"],
+      "correctAnswer": "Sun Microsystems",
+      "explanation": "Java was developed by Sun Microsystems, which was later acquired by Oracle Corporation."
+    },
+    {
+      "question": "What does 'IP' stand for in the context of computer networks?",
+      "options": ["Internet Program", "Interface Protocol", "Internet Protocol", "Integrated Processing"],
+      "correctAnswer": "Internet Protocol",
+      "explanation": "Internet Protocol (IP) is a set of rules governing the format of data sent over the Internet."
+    },
+    {
+      "question": "What does the acronym 'IoT' stand for?",
+      "options": ["Internet of Technology", "Internet of Things", "Intelligent Object Technology", "Interactive Object Transmission"],
+      "correctAnswer": "Internet of Things",
+      "explanation": "IoT refers to the network of physical devices, vehicles, appliances, and other items embedded with sensors, software, and connectivity enabling them to connect and exchange data."
+    },
+    {
+      "question": "Which company is known for its search engine that shares its name with the company?",
+      "options": ["Amazon", "Google", "Facebook", "Twitter"],
+      "correctAnswer": "Google",
+      "explanation": "Google is a multinational technology company known for its search engine, among other products and services."
+    },
+    {
+      "question": "What is the programming language primarily used for front-end web development?",
+      "options": ["Python", "Java", "JavaScript", "PHP"],
+      "correctAnswer": "JavaScript",
+      "explanation": "JavaScript is a scripting language used for creating interactive effects within web browsers."
+    },
+    {
+      "question": "Which social media platform is known for its character limit of 280 characters per tweet?",
+      "options": ["Facebook", "Instagram", "Twitter", "LinkedIn"],
+      "correctAnswer": "Twitter",
+      "explanation": "Twitter is a microblogging platform where users can post and interact with messages known as tweets, limited to 280 characters."
+    }
+  ]

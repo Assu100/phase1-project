@@ -9,3 +9,6 @@ The main features of the quiz application include;
     At the start of the quiz the participants are required to input their name to proceed to the quiz.
 
 The project leverages JavaScript's event-driven model to handle user interactions and timer functionalities effectively. Each aspect of the quiz, from question loading to leaderboard display, is managed through DOM manipulation and asynchronous data fetching techniques.
+
+
+HOSTING WEBSITE: https://cerulean-daifuku-f1211d.netlify.app/

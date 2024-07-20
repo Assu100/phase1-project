@@ -1,122 +1,132 @@
-/* Reset default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    text-align: center;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
-    margin-bottom: 20px;
-    color: #007bff;
-  }
-  
-  /* Contestant entry form */
-  #entry-container {
-    margin-bottom: 20px;
-  }
-  #entry-container label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: #555;
-  }
-  #entry-container input[type="text"] {
-    padding: 10px;
-    width: 200px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-  }
-  #entry-container button {
-    padding: 10px 20px;
-    margin-top: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  #entry-container button:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Quiz content */
-  #quiz-container {
-    display: none;
-  }
-  #question-container {
-    text-align: left;
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
-  #options-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  #options-list .option {
-    padding: 10px;
-    margin-bottom: 5px;
-    background-color: #e9ecef;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  #options-list .option:hover {
-    background-color: #d1d1d1;
-  }
-  #feedback-container {
-    margin-top: 10px;
-  }
-  #explanation {
-    font-style: italic;
-    color: #555;
-  }
-  
-  #controls {
-    margin-top: 20px;
-  }
-  #leaderboard-container {
-    margin-top: 30px;
-  }
-  #leaderboard-list {
-    padding: 0;
-    list-style: decimal;
-  }
-  
-  #timer {
-    margin-top: 20px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    margin-right: 10px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+/* General styles */
+body {
+  background-image: url('background image.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: purple;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2, h3, p {
+  color: #666;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: plum;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Quiz container styles */
+#quiz-container {
+  display: none;
+}
+
+#quiz-container.show {
+  display: block;
+}
+
+#question-container {
+  /* background-color: #f9f9f9; */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.option {
+  background-color: plum;
+  color: white;
+  padding: 15px 30px;
+  margin-top: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.option:hover {
+  background-color: purple;
+}
+
+#explanation {
+  margin-top: 20px;
+  font-style: italic;
+  font-size: 16px;
+  color: #777;
+}
+
+#time {
+  font-size: 32px;
+  font-weight: bold;
+  color: purple;
+  margin-top: 20px;
+}
+
+/* Entry container styles */
+#entry-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#entry-container input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+/* Leaderboard styles */
+#leaderboard-container {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: left;
+}
+
+#leaderboard-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#leaderboard-list li {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: plum;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}

@@ -57,6 +57,6 @@
       "question": "Which social media platform is known for its character limit of 280 characters per tweet?",
       "options": ["Facebook", "Instagram", "Twitter", "LinkedIn"],
       "correctAnswer": "Twitter",
-      "explanation": "Twitter is a microblogging platform where users can post and interact with messages known as tweets, limited to 280 characters."
+      "explanation": "Twitter is a micro blogging platform where users can post and interact with messages known as tweets, limited to 280 characters."
     }
-  ]
+]

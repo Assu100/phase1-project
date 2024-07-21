@@ -2,9 +2,9 @@
 This quiz application is a web-based interactive platform designed to test users' knowledge across various topics. Developed using HTML, CSS, and JavaScript, it offers a seamless experience where users can participate in a quiz with multiple-choice questions sourced from a JSON file.
 
 The main features of the quiz application include; 
-    A timer that apply to each question independently. 
+    A timer that apply to each question independently and when the allocated time ends for a question ends, the application will take the participant to the next question.
     An interactive interface where the players select answers by clicking on the options displayed on the screen and a submission button at the end of the screen.
-    Also there is a prev-btn that enables the participants to go back to the previous questions if they want
+    Also there is a prev-btn that enables the participants to go back to the previous questions if they want.
     A leaderboard that displays the participants' scores and updates the scores in real time as they progress through the quiz.
     At the start of the quiz the participants are required to input their name to proceed to the quiz.
 

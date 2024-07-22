@@ -12,3 +12,23 @@ The project leverages JavaScript's event-driven model to handle user interaction
 
 
 HOSTING WEBSITE: https://cerulean-daifuku-f1211d.netlify.app/
+
+
+How To Use The Website
+When you click on the above link, you will be taken to a page where the user is required to enter their name to start the quiz(the name doesn't have to be a official name)
+Image description
+
+when the quiz starts, there is a 10 seconds timer and when the time ends the quiz will move to the next question. Also when you choose a wrong answer, a correct answer with an explanation will be shown.
+Image description
+
+Image description
+
+There is a leaderboard to track the performance of the participants in the quiz in real time.
+
+Image description
+At the end of the quiz the leaderboard will with the overall performance of the participants.
+
+Image description
+
+
+
